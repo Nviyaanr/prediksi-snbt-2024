@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simulasi GenBI</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo" id="page1">Prediksi SNBT Informatika</div>
+        <div class="nav-items">
+          <a href="#" id="home">Home</a>
+          <a id="about" href="#">About</a>
+          <a href="/">Data</a>
+          <a href="/">Prediksi</a>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <div class="content">
+          <h1>Prediksi Peminat SNBT 2024</h1>
+          <p>
+            Selamat datang di website prediksi peminat SNBT jurusan Informatika
+            dan ilmu komputer di Universitas sekitar Pulau Jawa! Website ini
+            dirancang khusus untuk memberikan informasi kepada siswa yang akan
+            mendaftar ujian SNBT pada jurusan informatika atau ilmu komputer di
+            tahun 2024.
+          </p>
+          <a id="discover-more-btn" class="cta" href="#">Discover More</a>
+        </div>
+        <div class="logo">
+          <img
+            src="/assets/Logo_Seleksi_Nasional_Berdasarkan_Tes_(SNBT).svg.png"
+            width="300px"
+            alt="Logo"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="page_2">
+      <h2>Apa itu SNBT?</h2>
+
+      <div class="p1">
+        <p>
+          Seleksi Nasional Berbasis Tes atau SNBT adalah sebuah sistem seleksi
+          masuk perguruan tinggi negeri di Indonesia yang dilaksanakan secara
+          serentak oleh beberapa universitas pada setiap tahun akademik. SNBT
+          merupakan salah satu bentuk seleksi masuk perguruan tinggi negeri yang
+          menggunakan tes sebagai dasar penilaiannya. Melalui seleksi nasional
+          ini, perguruan tinggi dapat memastikan bahwa calon mahasiswa yang
+          diterima memiliki kemampuan akademik yang memadai.Hal ini diharapkan
+          akan meningkatkan kualitas pendidikan di perguruan tinggi dan
+          menghasilkan lulusan yang berkualitas dan siap menghadapi tantangan di
+          masa depan. SNBT sendiri terdiri dari tes potensi akademik yang
+          terdiri dari tiga bagian, yaitu kemampuan verbal, numerik, dan
+          penalaran. Tujuan SNBT adalah untuk menilai kemampuan akademik calon
+          mahasiswa serta mengukur kemampuan calon mahasiswa dalam berpikir dan
+          menganalisis informasi. SNBT dilaksanakan oleh Lembaga Tes Masuk
+          Perguruan Tinggi (LTMPT) yang dibentuk oleh Kementerian Pendidikan dan
+          Kebudayaan (Kemendikbud). Hasil seleksi SNBT diumumkan oleh LTMPT
+          melalui situs resminya.
+        </p>
+
+        <img
+          src="assets/snbt.jpeg"
+          alt="ujian_snbt"
+          width="350px"
+          height="400px"
+        />
+      </div>
+
+      <p class="p2"></p>
+    </section>
+
+    <script>
+      // Get a reference to the button
+      const discoverMoreBtn = document.getElementById("discover-more-btn");
+      const about = document.getElementById("about");
+      const home = document.getElementById("home");
+
+      // Add a click event listener to the button
+      discoverMoreBtn.addEventListener("click", function () {
+        // Scroll smoothly to the page 2 section
+        document.querySelector(".page_2").scrollIntoView({
+          behavior: "smooth",
+        });
+      });
+
+      about.addEventListener("click", function () {
+        // Scroll smoothly to the page 2 section
+        document.querySelector(".page_2").scrollIntoView({
+          behavior: "smooth",
+        });
+      });
+
+      home.addEventListener("click", function () {
+        // Scroll smoothly to the page 2 section
+        document.querySelector(".hero").scrollIntoView({
+          behavior: "smooth",
+        });
+      });
+    </script>
+  </body>
+</html>
