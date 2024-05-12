@@ -1,0 +1,28 @@
+.blue{
+    background-color: #19B6B6;;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+  
+  }
+
+.cta {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    font-size: 90%;
+    color: #000;
+    border: none;
+    background-color: #EAA554;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .page_5 table, th, td{
+    border: solid 2px;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 9px;
+    font-weight: bold;
+  }
